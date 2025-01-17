@@ -112,6 +112,10 @@ public class Gui extends JFrame implements ActionListener {
             if (escolha == 0){
                 resetarJogo();
             }
+            
+            else{
+                dispose();
+            }
         } 
     }
 
